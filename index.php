@@ -73,7 +73,7 @@
         <div class="container-over-dough-and-fire">
             <img src="images/Betere-restaurant.jpg" class="pizza-plaatje" alt="plaatje van een heerlijke pizza">
             <div class="over-dough-and-fire-formulier">
-                <h2>Heeft u allergieen of lust u iets niet? Geef dat aan in het formulier of zeg het tegen het
+                <h2>Heeft u allergien of lust u iets niet? Geef dat aan in het formulier of zeg het tegen het
                     personeel.
                     Wij zorgen ervoor dat u het gerecht krijgt en dat u gewenst kan eten. Heeft u ook nog een vraag of
                     wij

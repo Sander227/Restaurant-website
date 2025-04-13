@@ -1,3 +1,14 @@
+<?php
+
+session_start();
+$is_logged_in = $_SESSION["logged_in"] ?? false;
+if (!$is_logged_in) {
+    die("GET OUT OF THIS PAGE YOU DONT HAVE RIGHTS");
+}
+?>
+
+
+
 <!DOCTYPE php>
 <html lang="en">
 
@@ -14,7 +25,7 @@
 <body>
 
 
-<header>
+    <header>
         <div class="header-cont">
             <img src="images/Restaurantlogo.webp" class="restaurant-logo" alt="Het logo van het restaurant">
             <a href="index.php" class="naam-doos">
@@ -45,8 +56,21 @@
             </a>
         </div>
     </header>
+    <div class="verzend-email-blok-login">
+    <form class="formulier" action="/php/adminmenu.php" method="POST">
 
+        <label class="formulier-tekst-login">Naam van het product</label>
+        <input type="text" class="formulier-input-login" name="naam" required>
 
+        <label class="formulier-tekst-login">Beschrijving van het product</label>
+        <input type="text" class="formulier-input-login" name="beschrijving" required>
+
+        <label class="formulier-tekst-login">Prijs van het product</label>
+        <input type="price" class="formulier-input-login" name="prijs" required>
+
+        <button type="submit" class="verzend-knop-login">Voeg toe</button>
+    </form>
+    </div>
 </body>
 
 </html>

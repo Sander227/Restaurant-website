@@ -57,12 +57,6 @@
     <main>
         <div class="menu-cont">
 
-        <div class="search-box">
-    <form action="/zoeken" method="get">
-      <input type="text" name="q" placeholder="Zoek iets...">
-      <button type="submit">Zoeken</button>
-    </form>
-  </div>
 
             <?php
 
