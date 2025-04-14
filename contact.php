@@ -61,11 +61,11 @@
         <div class="verzend-email-blok">
             <form class="formulier" action="https://formsubmit.co/smitssander3@gmail.com" method="POST">
                 <label class="formulier-tekst">Naam</label>
-                <input type="text" class="formulier-input" name="naam">
+                <input type="text" class="formulier-input" name="naam" placeholder="Naam:">
                 <label class="formulier-tekst">E-mail</label>
-                <input type="email" class="formulier-input" name="email">
+                <input type="email" class="formulier-input" name="email" placeholder="E-mail:">
                 <label class="formulier-tekst">Bericht</label>
-                <textarea class="formulier-input-lang" name="bericht"></textarea>
+                <textarea class="formulier-input-lang" name="bericht" placeholder="Bericht:"></textarea>
                 <button type="submit" class="verzend-knop">Verzend</button>
             </form>
 

@@ -362,6 +362,14 @@ footer{
     color: #000;
 }
 
+.formulier-input::placeholder {
+    color: #000;
+}
+
+.formulier-input-lang::placeholder {
+    color: #000;
+}
+
 .formulier-tekst-login {
     color: #000;
     font-weight: bold;
