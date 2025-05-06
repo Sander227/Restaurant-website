@@ -392,3 +392,44 @@ footer{
     margin-top: 1.7vw;
 }
 
+
+
+
+
+
+
+
+
+.zoek-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.zoek-formulier {
+    display: inline-block;
+}
+
+.zoek-input {
+    padding: 8px;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    width: 250px;
+}
+
+.zoek-button {
+    padding: 8px 16px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    background-color: #e0662d;
+    color: white;
+    cursor: pointer;
+    margin-left: 8px;
+}
+
+.geen-resultaten {
+    text-align: center;
+    font-style: italic;
+    margin-top: 20px;
+}
